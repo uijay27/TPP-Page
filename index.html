@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Become Partner | Earn with Tilesview Partner Program</title>
+<meta name="description" content="Join the Tilesview Partner Program. Refer or resell AI room visualization to your clients and earn up to 30%. We handle demos, onboarding and closing. No investment required.">
+<link rel="canonical" href="https://tilesview.ai/become-partner">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   TILESVIEW TOKENS (matched from site screenshots)
+   Dev: replace with the site's real CSS variables if they exist
+   ========================================================= */
+:root{
+  --tv-orange:#e8731e;
+  --tv-orange-dark:#cf6215;
+  --tv-navy:#152f3c;
+  --tv-heading:#1a1f2b;
+  --tv-text:#6b6b6b;
+  --tv-beige:#f3f0ec;
+  --tv-peach:#fdf6ef;
+  --tv-peach-line:#f6e3d1;
+  --tv-line:#ececec;
+  --tv-white:#fff;
+  --f-head:'Titillium Web',sans-serif;
+  --f-body:'Outfit',sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--f-body);color:var(--tv-text);background:#fff;font-size:15px;line-height:1.7}
+a{color:var(--tv-orange);text-decoration:none}
+.container{max-width:1140px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--f-head);color:var(--tv-heading);line-height:1.25}
+h1{font-size:40px;font-weight:700}
+h2{font-size:30px;font-weight:700}
+h3{font-size:19px;font-weight:700}
+.or{color:var(--tv-orange)}
+.sec{padding:90px 0}
+.sec-head{text-align:center;max-width:620px;margin:0 auto 50px}
+.sec-head p{margin-top:10px}
+.kicker{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--tv-orange);margin-bottom:8px;display:block}
+
+.btn{display:inline-block;font-family:var(--f-body);font-weight:500;font-size:15px;padding:10px 22px;border-radius:7px;border:0;cursor:pointer;transition:.2s}
+.btn-or{background:var(--tv-orange);color:#fff}
+.btn-or:hover{background:var(--tv-orange-dark)}
+.btn-navy{background:var(--tv-navy);color:#fff}
+.btn-line{background:#fff;color:var(--tv-navy);border:1px solid var(--tv-navy)}
+
+/* HERO — same beige band as current site pages */
+.hero{background:var(--tv-beige);padding:100px 0;text-align:center}
+.hero h1{font-size:44px;max-width:760px;margin:0 auto}
+.hero p{max-width:560px;margin:16px auto 28px;font-size:16px}
+.hero .note{display:block;margin-top:14px;font-size:13px}
+
+/* WHO CAN JOIN */
+.who{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;text-align:center}
+.who svg{width:44px;height:44px;stroke:var(--tv-orange);fill:none;stroke-width:1.6;margin-bottom:14px}
+.who h3{font-size:16px}
+
+/* WORKFLOW — peach cards like "Simple Steps" */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.step{background:var(--tv-peach);border:1px solid var(--tv-peach-line);border-radius:14px;padding:32px 28px}
+.step .n{font-family:var(--f-head);font-weight:700;font-size:15px;color:var(--tv-orange);margin-bottom:10px;display:block}
+.step h3{margin-bottom:8px}
+
+/* MODELS */
+.models{display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:920px;margin:0 auto}
+.model{border:1px solid var(--tv-line);border-radius:14px;padding:36px 32px;background:#fff}
+.model.main{border-color:var(--tv-orange)}
+.model .rate{font-family:var(--f-head);font-size:42px;font-weight:700;color:var(--tv-orange);line-height:1.1;margin:14px 0 2px}
+.model .rate-sub{font-size:14px;margin-bottom:20px}
+.model ul{list-style:none;border-top:1px solid var(--tv-line);padding-top:18px}
+.model li{padding:5px 0 5px 22px;position:relative}
+.model li::before{content:"";position:absolute;left:0;top:13px;width:8px;height:8px;border-radius:50%;background:var(--tv-orange)}
+.strategic{text-align:center;margin-top:28px;font-size:14px}
+
+/* SPLIT — matches "Grow Smarter" two-column section */
+.split{display:grid;grid-template-columns:1fr 1.2fr;gap:60px;align-items:start}
+.split ul{list-style:none;margin-top:6px}
+.split li{padding:14px 0;border-bottom:1px solid var(--tv-line)}
+.split li b{display:block;color:var(--tv-heading);font-weight:600}
+
+/* FORM */
+.form-wrap{background:var(--tv-beige);}
+.form-card{max-width:760px;margin:0 auto;background:#fff;border-radius:14px;padding:44px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 22px}
+.f{display:flex;flex-direction:column;gap:6px}
+.f.full{grid-column:1/-1}
+label{font-size:14px;font-weight:500;color:var(--tv-heading)}
+.req{color:var(--tv-orange)}
+input,select,textarea{font-family:var(--f-body);font-size:14px;color:var(--tv-heading);padding:11px 14px;border:1px solid #dedede;border-radius:7px;background:#fff;width:100%}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--tv-orange)}
+.chk{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--tv-text)}
+.chk input{width:auto;margin-top:5px;accent-color:var(--tv-orange)}
+.err{display:none;color:#c0392b;font-size:13px}
+.ok{display:none;text-align:center;padding:30px 0}
+.ok h3{font-size:24px;margin-bottom:8px}
+
+@media(max-width:900px){
+  .who{grid-template-columns:1fr 1fr}
+  .steps,.models,.split{grid-template-columns:1fr}
+  .split{gap:20px}
+}
+@media(max-width:560px){
+  .sec{padding:64px 0}
+  h1,.hero h1{font-size:32px}
+  h2{font-size:25px}
+  .grid,.who{grid-template-columns:1fr}
+  .form-card{padding:28px 20px}
+}
+</style>
+</head>
+<body>
+<!-- Site header goes here (existing Tilesview header) -->
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Earn with Tilesview: Up to <span class="or">30%</span> on Every Closed Deal</h1>
+    <p>Offer AI-powered room visualization to your clients. We handle demos, onboarding and closing. You earn the commission.</p>
+    <a href="#apply" class="btn btn-or">Earn with Tilesview</a>
+    <span class="note">No investment required.</span>
+  </div>
+</section>
+
+<!-- (Optional) keep the existing brand logo strip here -->
+
+<!-- WHO CAN JOIN -->
+<section class="sec">
+  <div class="container">
+    <div class="sec-head">
+      <h2><span class="or">Who</span> Can Join the Partner Program</h2>
+    </div>
+    <div class="who">
+      <div>
+        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        <h3>Web Studios &amp; Digital Agencies</h3>
+      </div>
+      <div>
+        <svg viewBox="0 0 24 24"><path d="M3 11l15-6v14L3 13z"/><path d="M7 13v5h3"/></svg>
+        <h3>Marketing &amp; Performance Agencies</h3>
+      </div>
+      <div>
+        <svg viewBox="0 0 24 24"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/></svg>
+        <h3>Developers &amp; System Integrators</h3>
+      </div>
+      <div>
+        <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M16 4.5a3 3 0 010 7M18 14c2 .8 3 3 3 6"/></svg>
+        <h3>Consultants &amp; Industry Professionals</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WORKFLOW -->
+<section class="sec" style="padding-top:0">
+  <div class="container">
+    <div class="sec-head">
+      <h2>Your Partnership <span class="or">Workflow</span></h2>
+      <p>You make the introduction. Our team takes it from there.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="n">Step 01</span>
+        <h3>Introduce Your Client</h3>
+        <p>Find a business that sells tiles, flooring or surfaces. Run a short discovery call and share the lead with us.</p>
+      </div>
+      <div class="step">
+        <span class="n">Step 02</span>
+        <h3>We Handle the Sale</h3>
+        <p>Tilesview runs the demo, sends the proposal, and manages negotiation, closing and onboarding.</p>
+      </div>
+      <div class="step">
+        <span class="n">Step 03</span>
+        <h3>You Get Paid</h3>
+        <p>Earn commission on subscription payments received in the first 8 months of the client's plan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODELS -->
+<section class="sec" style="background:var(--tv-peach)">
+  <div class="container">
+    <div class="sec-head">
+      <h2>Choose Your <span class="or">Partner Model</span></h2>
+      <p>Pick the model that fits how you work with clients.</p>
+    </div>
+    <div class="models">
+      <div class="model">
+        <h3>Referral Partner</h3>
+        <div class="rate">15 – 18%</div>
+        <div class="rate-sub">commission for 8 months</div>
+        <ul>
+          <li>Introduce qualified leads</li>
+          <li>Tilesview handles demo to closing</li>
+          <li>No sales or support work</li>
+        </ul>
+      </div>
+      <div class="model main">
+        <h3>Reseller / White-label Partner</h3>
+        <div class="rate">25 – 30%</div>
+        <div class="rate-sub">reseller margin</div>
+        <ul>
+          <li>Sell Tilesview with your services</li>
+          <li>White-label option under agreed terms</li>
+          <li>You own the client relationship</li>
+        </ul>
+      </div>
+    </div>
+    <p class="strategic">Larger agency or platform? Ask about a <b>Strategic Partnership</b> with custom terms.</p>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="sec">
+  <div class="container split">
+    <div>
+      <h2>Grow Your Revenue with the <span class="or">Tilesview Partner Program</span></h2>
+    </div>
+    <ul>
+      <li><b>Earn more from the same clients</b>Add a visualization service to the brands you already work with.</li>
+      <li><b>No AI or 3D team needed</b>Tilesview is ready to use. No development work on your side.</li>
+      <li><b>No cost, no commitment</b>Joining is free. There are no targets or minimums.</li>
+      <li><b>Partner support included</b>Get approved marketing materials and help from our team.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- APPLY FORM -->
+<section class="sec form-wrap" id="apply">
+  <div class="container">
+    <div class="sec-head">
+      <h2><span class="or">Join</span> the Tilesview Partner Program</h2>
+      <p>Takes 2 minutes. Our team will review and reply by email.</p>
+    </div>
+    <div class="form-card">
+      <!-- TODO: set action to backend / n8n production webhook URL -->
+      <form id="pf" action="[FORM_ENDPOINT]" method="POST" novalidate>
+        <div class="grid">
+          <div class="f"><label for="company">Company name <span class="req">*</span></label><input id="company" name="company" placeholder="e.g. Smith Digital Agency" required></div>
+          <div class="f"><label for="website">Website URL <span class="req">*</span></label><input id="website" name="website" type="url" placeholder="https://" required></div>
+          <div class="f"><label for="name">Your name <span class="req">*</span></label><input id="name" name="full_name" required></div>
+          <div class="f"><label for="email">Business email <span class="req">*</span></label><input id="email" name="email" type="email" required></div>
+          <div class="f"><label for="phone">Phone number <span class="req">*</span></label><input id="phone" name="phone" type="tel" placeholder="+1" required></div>
+          <div class="f"><label for="country">Country <span class="req">*</span></label><input id="country" name="country" required></div>
+          <div class="f"><label for="model">Partner model <span class="req">*</span></label>
+            <select id="model" name="partner_model" required>
+              <option value="">Select a model</option>
+              <option value="referral">Referral Partner (15–18%)</option>
+              <option value="reseller">Reseller / White-label (25–30%)</option>
+              <option value="strategic">Strategic Partner</option>
+              <option value="not_sure">Not sure yet</option>
+            </select>
+          </div>
+          <div class="f"><label for="cat">Business category <span class="req">*</span></label>
+            <select id="cat" name="business_type" required>
+              <option value="">Select category</option>
+              <option>Web studio / Digital agency</option>
+              <option>Marketing agency</option>
+              <option>Developer / System integrator</option>
+              <option>Consultant / Freelancer</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="f full"><label for="clients">Your clients / target customers</label><textarea id="clients" name="clients" rows="3" placeholder="e.g. Tile and flooring retailers in Texas"></textarea></div>
+          <div class="f full">
+            <label class="chk"><input type="checkbox" name="accept_terms" required> <span>I have read and agree to the <a href="partner-terms.html" target="_blank" rel="noopener">Partner Program Terms</a>. <span class="req">*</span></span></label>
+            <span class="err" id="err">Please fill all required fields and accept the terms.</span>
+          </div>
+          <div class="f full"><button class="btn btn-or" type="submit" id="sb" style="width:fit-content">Submit Application</button></div>
+        </div>
+      </form>
+      <div class="ok" id="ok">
+        <h3>Application Received</h3>
+        <p>Thank you. Our partnerships team will review it and email you the next steps.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Existing site footer + "Ready to upgrade" band goes here -->
+
+<script>
+(function(){
+  const f=document.getElementById('pf'),err=document.getElementById('err'),sb=document.getElementById('sb');
+  f.addEventListener('submit',async e=>{
+    e.preventDefault();
+    if(!f.checkValidity()){err.style.display='block';f.reportValidity();return;}
+    err.style.display='none';sb.disabled=true;sb.textContent='Submitting...';
+    try{
+      const d=Object.fromEntries(new FormData(f));
+      d.source_url=location.href;d.submitted_at=new Date().toISOString();
+      const r=await fetch(f.action,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(d)});
+      if(!r.ok)throw 0;
+      f.style.display='none';document.getElementById('ok').style.display='block';
+    }catch(_){err.textContent='Something went wrong. Please try again.';err.style.display='block';}
+    finally{sb.disabled=false;sb.textContent='Submit Application';}
+  });
+})();
+</script>
+</body>
+</html>
